@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Car Part Tool</title>
+</head>
+<body>
+    <div class="car-container">
+        <img src="car-image.jpg" alt="Car Image" id="carImage" usemap="#carMap">
+        <div class="part-details" id="partDetails"></div>
+    </div>
+
+    <map name="carMap">
+        <area shape="circle" coords="111,323,81" alt="Rear Bumper" onmouseover="showPartDetails('Rear Bumper',['Number : xxxxx', 'Status : New', 'Last Serviced : 27/11/2023'], event)" onmouseout="hidePartDetails()">
+        <area shape="circle" coords="1439,258,56" alt="HeadLamp" onmouseover="showPartDetails('Head Lamp',['Number : xxxxx', 'Status : New', 'Last Serviced : 27/11/2023'], event)" onmouseout="hidePartDetails()">
+        <!-- Add more areas for other car parts -->
+    </map>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    display: flex;
+	font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.car-container {
+    position: relative;
+}
+
+.part-details {
+    position: absolute;
+    max-width: 300px; /* Adjust the maximum width of the sticky note */
+    padding: 15px;
+    background-color: #ffeb3b; /* Adjust the background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: none;
+}
+
+.connecting-line {
+    background-color: #000; /* Adjust line color */
+}
