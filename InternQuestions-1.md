@@ -450,6 +450,5 @@ double getMedian(std::vector<double> readings) {
 
 ---
 
-This framework is **realistic for interns** - tests fundamentals while allowing room for growth. Focus on potential and learning ability rather than expecting expert-level knowledge!
-<img width="859" height="13276" alt="image" src="https://github.com/user-attachments/assets/4ece8538-2544-4341-a295-84168e9ef56c" />
+
 
